@@ -1,6 +1,5 @@
 import path from 'path'
 import webpack from 'webpack'
-import produce from 'immer'
 
 export default {
   stories: ['../**/*.stories.@(tsx|jsx|mdx)'],
