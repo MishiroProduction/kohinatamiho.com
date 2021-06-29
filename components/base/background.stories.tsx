@@ -1,11 +1,11 @@
 import { Background } from 'components/base/background'
-import { KohhiThemeProvider } from 'theme/kohhi-theme-provider'
 import { Meta, Story } from '@storybook/react'
+import { kohhiThemeProviderDecorator } from 'storybook-utils/decorators'
 
 const meta: Meta = {
   component: Background,
   title: 'Components/Base/Background',
-  decorators: [story => <KohhiThemeProvider>{story()}</KohhiThemeProvider>]
+  decorators: [kohhiThemeProviderDecorator]
 }
 
 export default meta
